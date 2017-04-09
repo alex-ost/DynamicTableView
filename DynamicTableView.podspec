@@ -81,7 +81,7 @@ s.platform     = :ios, "10.0"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'git@github.com:alex-ost/DynamicTableView.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/alex-ost/DynamicTableView.git', :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
