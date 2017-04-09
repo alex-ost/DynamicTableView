@@ -1,7 +1,6 @@
 # DynamicTableView
 DynamicTableView - it's custom analog of UITableView. Has different features which hard to get from UITableView or UICollectionView.
 
-[![Build Status](https://travis-ci.org/alex-ost/DynamicTableView.svg)](https://travis-ci.org/alex-ost/DynamicTableView)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/DynamicTableView.svg)](https://img.shields.io/cocoapods/v/DynamicTableView.svg)
 [![Platform](https://img.shields.io/cocoapods/p/DynamicTableView.svg?style=flat)](http://cocoadocs.org/docsets/DynamicTableView)
 
