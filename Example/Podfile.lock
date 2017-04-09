@@ -1,0 +1,17 @@
+PODS:
+  - DynamicTableView (0.0.1)
+
+DEPENDENCIES:
+  - DynamicTableView (from `..`)
+
+EXTERNAL SOURCES:
+  DynamicTableView:
+    :path: ..
+    :submodules: true
+
+SPEC CHECKSUMS:
+  DynamicTableView: 86d19e948588ce6f07cccb6e38b85259110b136e
+
+PODFILE CHECKSUM: 50f4225657ef7e3e91cb65571e1a94c473aded2f
+
+COCOAPODS: 1.2.0

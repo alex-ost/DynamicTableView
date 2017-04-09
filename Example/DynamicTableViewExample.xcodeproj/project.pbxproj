@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A157DF114657BC6DBC2B42F1 /* Pods_DynamicTableViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816B90525716C2E3C907306 /* Pods_DynamicTableViewExample.framework */; };
+		FAC329A01E9984CB002B8663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC329931E9984CB002B8663 /* Assets.xcassets */; };
+		FAC329A11E9984CB002B8663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC329941E9984CB002B8663 /* LaunchScreen.storyboard */; };
+		FAC329A21E9984CB002B8663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC329961E9984CB002B8663 /* Main.storyboard */; };
+		FAC329A41E9984CB002B8663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3299A1E9984CB002B8663 /* AppDelegate.swift */; };
+		FAC329A81E9984CB002B8663 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3299F1E9984CB002B8663 /* HomeViewController.swift */; };
+		FAC329AC1E9987B3002B8663 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC329AB1E9987B3002B8663 /* DataSource.swift */; };
+		FAC329AE1E998A43002B8663 /* DataInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC329AD1E998A43002B8663 /* DataInfo.plist */; };
+		FAC329B01E999BA0002B8663 /* DynamicTableViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC329AF1E999BA0002B8663 /* DynamicTableViewTextCell.swift */; };
+		FAC329B21E999BB2002B8663 /* DynamicTableViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC329B11E999BB2002B8663 /* DynamicTableViewImageCell.swift */; };
+		FAC329B41E999C34002B8663 /* DynamicTableViewTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC329B31E999C34002B8663 /* DynamicTableViewTextCell.xib */; };
+		FAC329B61E999F8D002B8663 /* DynamicTableViewImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC329B51E999F8D002B8663 /* DynamicTableViewImageCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98480D868F7179BD19E7A931 /* Pods-DynamicTableViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTableViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTableViewExample/Pods-DynamicTableViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		9CE378064919970BBD4A5546 /* Pods-DynamicTableViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTableViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTableViewExample/Pods-DynamicTableViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F816B90525716C2E3C907306 /* Pods_DynamicTableViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicTableViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC329301E994887002B8663 /* DynamicTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC329931E9984CB002B8663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC329951E9984CB002B8663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC329971E9984CB002B8663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC329981E9984CB002B8663 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC3299A1E9984CB002B8663 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC3299F1E9984CB002B8663 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAC329AB1E9987B3002B8663 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		FAC329AD1E998A43002B8663 /* DataInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataInfo.plist; sourceTree = "<group>"; };
+		FAC329AF1E999BA0002B8663 /* DynamicTableViewTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTableViewTextCell.swift; sourceTree = "<group>"; };
+		FAC329B11E999BB2002B8663 /* DynamicTableViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTableViewImageCell.swift; sourceTree = "<group>"; };
+		FAC329B31E999C34002B8663 /* DynamicTableViewTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicTableViewTextCell.xib; sourceTree = "<group>"; };
+		FAC329B51E999F8D002B8663 /* DynamicTableViewImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicTableViewImageCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC3292D1E994887002B8663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A157DF114657BC6DBC2B42F1 /* Pods_DynamicTableViewExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193E58536C6608317A7FBFF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CE378064919970BBD4A5546 /* Pods-DynamicTableViewExample.debug.xcconfig */,
+				98480D868F7179BD19E7A931 /* Pods-DynamicTableViewExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC20541EB6794F160B03A218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F816B90525716C2E3C907306 /* Pods_DynamicTableViewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC329271E994887002B8663 = {
+			isa = PBXGroup;
+			children = (
+				FAC329911E9984CB002B8663 /* DynamicTableViewExample */,
+				FAC329311E994887002B8663 /* Products */,
+				193E58536C6608317A7FBFF3 /* Pods */,
+				EC20541EB6794F160B03A218 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC329311E994887002B8663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC329301E994887002B8663 /* DynamicTableViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC329911E9984CB002B8663 /* DynamicTableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				FAC329921E9984CB002B8663 /* Resources */,
+				FAC329991E9984CB002B8663 /* Sources */,
+			);
+			path = DynamicTableViewExample;
+			sourceTree = "<group>";
+		};
+		FAC329921E9984CB002B8663 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAC329931E9984CB002B8663 /* Assets.xcassets */,
+				FAC329941E9984CB002B8663 /* LaunchScreen.storyboard */,
+				FAC329961E9984CB002B8663 /* Main.storyboard */,
+				FAC329981E9984CB002B8663 /* Info.plist */,
+				FAC329AD1E998A43002B8663 /* DataInfo.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAC329991E9984CB002B8663 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAC329A91E99850F002B8663 /* CustomCells */,
+				FAC329AA1E99879F002B8663 /* DataSource */,
+				FAC3299A1E9984CB002B8663 /* AppDelegate.swift */,
+				FAC3299F1E9984CB002B8663 /* HomeViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAC329A91E99850F002B8663 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				FAC329AF1E999BA0002B8663 /* DynamicTableViewTextCell.swift */,
+				FAC329B31E999C34002B8663 /* DynamicTableViewTextCell.xib */,
+				FAC329B11E999BB2002B8663 /* DynamicTableViewImageCell.swift */,
+				FAC329B51E999F8D002B8663 /* DynamicTableViewImageCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		FAC329AA1E99879F002B8663 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FAC329AB1E9987B3002B8663 /* DataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC3292F1E994887002B8663 /* DynamicTableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC329421E994887002B8663 /* Build configuration list for PBXNativeTarget "DynamicTableViewExample" */;
+			buildPhases = (
+				18642B08DE8166438D9E4136 /* [CP] Check Pods Manifest.lock */,
+				FAC3292C1E994887002B8663 /* Sources */,
+				FAC3292D1E994887002B8663 /* Frameworks */,
+				FAC3292E1E994887002B8663 /* Resources */,
+				C9EF0FC457AF76F3D5A09EB8 /* [CP] Embed Pods Frameworks */,
+				4C8A4A5AA05A5BEBD8096273 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicTableViewExample;
+			productName = DynamicTableView;
+			productReference = FAC329301E994887002B8663 /* DynamicTableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC329281E994887002B8663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alexandr Ostrynskyi";
+				TargetAttributes = {
+					FAC3292F1E994887002B8663 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAC3292B1E994887002B8663 /* Build configuration list for PBXProject "DynamicTableViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC329271E994887002B8663;
+			productRefGroup = FAC329311E994887002B8663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC3292F1E994887002B8663 /* DynamicTableViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC3292E1E994887002B8663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC329B41E999C34002B8663 /* DynamicTableViewTextCell.xib in Resources */,
+				FAC329A21E9984CB002B8663 /* Main.storyboard in Resources */,
+				FAC329A11E9984CB002B8663 /* LaunchScreen.storyboard in Resources */,
+				FAC329B61E999F8D002B8663 /* DynamicTableViewImageCell.xib in Resources */,
+				FAC329A01E9984CB002B8663 /* Assets.xcassets in Resources */,
+				FAC329AE1E998A43002B8663 /* DataInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18642B08DE8166438D9E4136 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C8A4A5AA05A5BEBD8096273 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicTableViewExample/Pods-DynamicTableViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9EF0FC457AF76F3D5A09EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicTableViewExample/Pods-DynamicTableViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC3292C1E994887002B8663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC329AC1E9987B3002B8663 /* DataSource.swift in Sources */,
+				FAC329A41E9984CB002B8663 /* AppDelegate.swift in Sources */,
+				FAC329B01E999BA0002B8663 /* DynamicTableViewTextCell.swift in Sources */,
+				FAC329A81E9984CB002B8663 /* HomeViewController.swift in Sources */,
+				FAC329B21E999BB2002B8663 /* DynamicTableViewImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC329941E9984CB002B8663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC329951E9984CB002B8663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC329961E9984CB002B8663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC329971E9984CB002B8663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC329401E994887002B8663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC329411E994887002B8663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC329431E994887002B8663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE378064919970BBD4A5546 /* Pods-DynamicTableViewExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicTableViewExample/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-ost.DynamicTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAC329441E994887002B8663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98480D868F7179BD19E7A931 /* Pods-DynamicTableViewExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicTableViewExample/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-ost.DynamicTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC3292B1E994887002B8663 /* Build configuration list for PBXProject "DynamicTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC329401E994887002B8663 /* Debug */,
+				FAC329411E994887002B8663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC329421E994887002B8663 /* Build configuration list for PBXNativeTarget "DynamicTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC329431E994887002B8663 /* Debug */,
+				FAC329441E994887002B8663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC329281E994887002B8663 /* Project object */;
+}

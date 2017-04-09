@@ -1,0 +1,9 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "10.0"
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target "DynamicTableViewExample" do
+  pod 'DynamicTableView', :path => "..", :submodules => true
+end
